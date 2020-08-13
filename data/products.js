@@ -1,3 +1,4 @@
+//when you add a new product the review should be an empty array
 module.exports = [{
     "_id": 1,
     "name": "Body Luxuries Sweet Lavender Hand Sanitizer",
