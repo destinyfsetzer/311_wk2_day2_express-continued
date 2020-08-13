@@ -16,7 +16,7 @@ A web page has been created for us. Our job is to build the server.
 ### Express.static
 
 * After "app" is defined, add the `express.static` middleware to express referencing the "public" folder
-* Navigate to http://localhost:4000 to see the web page
+* Navigate to http://localhost:4001 to see the web page
 
 ### Body-parser
 
@@ -24,7 +24,7 @@ A web page has been created for us. Our job is to build the server.
   * Remember: `bodyParser.json()`
 
 ### Create express routes to get all things
-
+// import all of these into index.js and build route
 * Between lines 2 and 3, require the data for from the following .js files:
   * /data/contacts
   * /data/vehicles
@@ -38,7 +38,7 @@ A web page has been created for us. Our job is to build the server.
 * `res.json()` the appropriate array from the "require" statements above
 
 ### Create express routes to get one thing
-
+// start by creating all the routes for one bit of data first (contacts)
 * Add `app.get()` routes for the following:
   * "/contacts/:id"
   * "/vehicles/:id"
